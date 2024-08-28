@@ -15,8 +15,9 @@ const Home = () => {
 
         <>
             <HeroSection />
-
-            <FeaturedProduct />
+            <div className='mx-auto container'>
+                <FeaturedProduct />
+            </div>
         </>
     )
 }
