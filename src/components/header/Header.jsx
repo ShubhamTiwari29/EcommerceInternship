@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header className="bg-blue-600 text-white shadow-md">
+        <header className="bg-gray-100 text-black shadow-md">
             <div className="container mx-auto flex justify-between items-center py-4 px-6">
                 <div className="text-2xl font-bold">
                     <Link to="/" className="hover:text-gray-300">
-                        Coool
+                        Shoppy
                     </Link>
                 </div>
                 <nav>
